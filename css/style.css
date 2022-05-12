@@ -23,3 +23,18 @@
     margin-top: 200px;
     margin-left: 150px;
 }
+
+.titulo-h2 {
+    color: white;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url(../fonts/Arvo-Italic.ttf);
+}
+
+.fuenteh2 {
+    font-family: 'Arvo';
+    src: url(../fonts/Arvo-Italic.ttf);
+    font-size: 50px;
+}

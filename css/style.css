@@ -2,6 +2,24 @@
     background-color: black;
 }
 
-.inicio{
+.inicio {
     margin-top: 200px;
+}
+
+.bordes {
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    border-left: solid 5px white;
+}
+
+.bordes1{
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    border-left: solid 5px white;
+    border-right: solid 5px white;
+}
+
+.footer1 {
+    margin-top: 200px;
+    margin-left: 150px;
 }

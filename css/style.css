@@ -121,37 +121,62 @@
     border-radius: 5px;
 
 }
+
 .elemento-item {
     background-position: center;
     background-image: url(../images/Paquete1.jpg);
-    width: 400px;
+    width: 700px;
     height: 200px;
     transition-timing-function: linear;
     transition-delay: 0.5s;
     transition-duration: 1.5s;
-    }
+}
 
 .elemento-item1 {
     background-position: center;
-    background-image: url(../images/Paquete2.jpg);
-    width: 400px;
+    background-image: url(../images/Paquete2.png);
+    width: 700px;
     height: 200px;
     transition-timing-function: linear;
     transition-delay: 0.5s;
     transition-duration: 1.5s;
- }
+}
 
 .elemento-item2 {
     background-position: center;
-    background-image: url(../images/Paquete3.jpg);
-    width: 400px;
+    background-image: url(../images/Paquete3.png);
+    width: 700px;
     height: 200px;
     transition-timing-function: linear;
     transition-delay: 0.5s;
     transition-duration: 1.5s;
-   }
+}
 
 .item:hover {
-    width: 1300px;
-    height: 400px;
-    }
+    width: 900px;
+    height: 200px;
+}
+
+.contenedor1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    position: absolute;
+    font-family: 'Arvo';
+    font-size: 15px;
+}
+
+.centrado {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.texto2 {
+    text-align: center;
+    color: black;
+    font-family: 'Arvo';
+    font-size: 18px;
+}

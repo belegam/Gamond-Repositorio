@@ -124,27 +124,34 @@
 .elemento-item {
     background-position: center;
     background-image: url(../images/Paquete1.jpg);
-    width: 300px;
-    height: 300px;
-}
+    width: 400px;
+    height: 200px;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+    }
 
 .elemento-item1 {
     background-position: center;
     background-image: url(../images/Paquete2.jpg);
-    width: 300px;
-    height: 300px;
-
-}
+    width: 400px;
+    height: 200px;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+ }
 
 .elemento-item2 {
     background-position: center;
     background-image: url(../images/Paquete3.jpg);
-    width: 300px;
-    height: 300px;
-
-}
+    width: 400px;
+    height: 200px;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+   }
 
 .item:hover {
-    width: 1200px;
-    
-}
+    width: 1300px;
+    height: 400px;
+    }

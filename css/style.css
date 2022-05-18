@@ -2,6 +2,16 @@
     background-color: black;
 }
 
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
 .inicio {
     margin-top: 200px;
 }
@@ -180,3 +190,63 @@
     font-family: 'Arvo';
     font-size: 18px;
 }
+
+.logo {
+    vertical-align: middle;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width:800px) {
+
+    .navbar {
+        flex-direction: row;
+        height: 50px;
+        justify-content: space-evenly;
+        align-items: center;
+        vertical-align: middle;
+        max-width: 100px;
+    }
+
+    .texto {
+        text-align: left;
+        color: white;
+        font-family: 'Arvo';
+        font-size: small;
+    }
+
+    .footer1 {
+        margin-top: 50px;
+        margin-left: 25px;
+        vertical-align: middle;
+    }
+
+    .logo {
+        vertical-align: middle;
+    }
+
+    .bordes {
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        border-left: solid 3px white;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }}

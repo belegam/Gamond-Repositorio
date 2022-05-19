@@ -1,0 +1,15 @@
+.servicios {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Arvo';
+    }
+}
+

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../parciales/footer.scss"
+    ],
+    "names": [],
+    "file": "footer.css"
+}

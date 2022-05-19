@@ -1,0 +1,20 @@
+.texto1 {
+    text-align: center;
+    color: black;
+    font-family: 'Arvo';
+    font-size: 20px;
+
+    &2 {
+        text-align: center;
+        color: black;
+        font-family: 'Arvo';
+        font-size: 18px;
+    }
+    
+    &-encima {
+        position: absolute;
+        font-family: 'Arvo';
+        font-size: 15px;
+    }
+}
+
